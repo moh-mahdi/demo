@@ -77,6 +77,7 @@ namespace csharp_tutorial
                 Trace.WriteLine("Result: " + result);
             });
 
+            //delay for 3ms
             await Task.Delay(3);
 
             Trace.WriteLine($"AsParallel().ForAll with async: {sw.ElapsedMilliseconds}ms");
